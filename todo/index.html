@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Todo List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv/html5shiv.js"></script>
+    <![endif]-->
+    <link href="css/custom.css" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery-1.11.0.js"></script>    
+<script type="text/javascript" src="js/todo.js"></script>
+</head>
+  <body>
+
+ <!-- Part 1: Wrap all page content here -->
+<div id="wrap">
+      <!-- Begin page content -->
+      <div class="container">
+        <div class="page-header">
+          <h1>Lazy Man's ToDo List</h1>
+          <p>Type and complete your tasks below and I will remember it even if you close the broswer or restart the system.</p>
+        </div>
+<form action="#" method="post" id="todoForm" class="form-horizontal" role="form">
+<div class="form-group">	
+    <label for"todo" class="control-label">Task:</label>
+    <input type="text" class="form-control" name="todo" id="todo" required>
+ </div>
+ <br/>
+ <input type="submit" value="Do it !" id="addTask">
+</form>
+
+<h3>Task List</h3>
+<div id="list">
+   <b>No tasks on your list.</b>
+</div>
+<br/>
+<form action="#" method="post" id="clearList" class="form-horizontal" role="form">
+    <input type="submit" value="Clear List" id="clearList">
+</form>
+</div><!-- Part 1: Wrap/page content ends here -->
+      <div id="push"></div>
+</div>  
+<div id="footer">
+      <div class="container">
+        <p class="muted credit"><a href="http://doit.eddywebs.com">Lazy Man's Todo List</a> by eddywebs. Source code<a href="https://github.com/eddywebs/LazyMansTodoList"> available at github </a>.</p>
+      </div>
+</div>
+
+  </body>
+</html>

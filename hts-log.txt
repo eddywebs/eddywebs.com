@@ -1,0 +1,19 @@
+HTTrack3.48-21 launched on Wed, 25 Oct 2017 12:01:33 at http://vizualize.me/eddywebs
+(httrack http://vizualize.me/eddywebs )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:09:37	Error: 	"NOT FOUND" (404) at link vizualize.me/media/img/save_btn.png (from vizualize.me/media/css/vizstyle.css)
+12:09:37	Error: 	"NOT FOUND" (404) at link vizualize.me/media/img/revert_btn.png (from vizualize.me/media/css/vizstyle.css)
+12:09:37	Error: 	"NOT FOUND" (404) at link vizualize.me/media/css/media/img/overlay-ie6.png (from vizualize.me/media/css/vizstyle.css)
+12:10:20	Error: 	"NOT FOUND" (404) at link vizualize.me/media/fonts/glyphicons-halflings-regular.eot (from vizualize.me/media/css/bootstrap.min.css)
+12:10:20	Error: 	"NOT FOUND" (404) at link vizualize.me/media/fonts/glyphicons-halflings-regular.eot? (from vizualize.me/media/css/bootstrap.min.css)
+12:10:20	Error: 	"NOT FOUND" (404) at link vizualize.me/media/fonts/glyphicons-halflings-regular.woff (from vizualize.me/media/css/bootstrap.min.css)
+12:10:20	Error: 	"NOT FOUND" (404) at link vizualize.me/media/fonts/glyphicons-halflings-regular.ttf (from vizualize.me/media/css/bootstrap.min.css)
+12:10:20	Error: 	"NOT FOUND" (404) at link vizualize.me/media/fonts/glyphicons-halflings-regular.svg (from vizualize.me/media/css/bootstrap.min.css)
+
+HTTrack Website Copier/3.48-21 mirror complete in 8 minutes 47 seconds : 118 links scanned, 109 files written (2019597 bytes overall), 109 files updated [1215402 bytes received at 2306 bytes/sec], 2034310 bytes transferred using HTTP compression in 118 files, ratio 55%, 4.2 requests per connection
+(8 errors, 0 warnings, 0 messages)
